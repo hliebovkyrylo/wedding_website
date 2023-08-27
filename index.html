@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weedings</title>
+    <title>Weddings</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap" rel="stylesheet">
@@ -23,16 +23,39 @@
                     <li class="nav__link"><a href="#">Testimonials</a></li>
                     <li class="nav__link"><a href="#">Contact us</a></li>
                 </ul>
+                <div class="nav__toggle">
+                    <div class="button">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <nav class="toggleItems">
+                        <div class="items">
+                            <a href="#" class="navToggle">Browse</a>
+                        </div>
+                        <div class="items">
+                            <a href="#" class="navToggle">Services</a>
+                        </div>
+                        <div class="items">
+                            <a href="#" class="navToggle">Testimonials</a>
+                        </div>
+                        <div class="items">
+                            <a href="#" class="navToggle">Contact us</a>
+                        </div>
+                    </nav>
+                </div>
             </nav>
         </div>
     </header>
     <div class="intro">
         <div class="intro__inner">
-            <h1 class="title">Discover your perfect Italian wedding venue</h1>
-            <div class="subtitle">Sagittis adipiscing posuere id adipiscing aliquam posuere. Aliquet faucibus duis accumsan aliquet tempor diam dignissim suscipit. Nibh urna ut diam fames.</div>
-            <div class="scrollDiv">
-                <img class="scroll" src="./assets/icons/south.svg" alt="">
-                <div class="subtitle">Scroll</div>
+            <div class="container">
+                <h1 class="title">Discover your perfect Italian wedding venue</h1>
+                <div class="subtitle">Sagittis adipiscing posuere id adipiscing aliquam posuere. Aliquet faucibus duis accumsan aliquet tempor diam dignissim suscipit. Nibh urna ut diam fames.</div>
+                <div class="scrollDiv">
+                    <img class="scroll" src="./assets/icons/south.svg" alt="">
+                    <div class="subtitle">Scroll</div>
+                </div>
             </div>
         </div>
     </div>
@@ -173,25 +196,25 @@
             <div class="portfolios__inner">
                 <a href="#" class="portfolios__item">
                     <div class="after"></div>
-                    <img src="./assets/img/w1.png" alt="">
+                    <img class="portfolios__img" src="./assets/img/w1.png" alt="">
                     <div class="portfolios__text">THE WEDDING OF</div>
                     <div class="portfolios__text name">Joy & Jordan</div>
                 </a href="#">
                 <a href="#" class="portfolios__item">
                     <div class="after"></div>
-                    <img src="./assets/img/w2.png" alt="">
+                    <img class="portfolios__img" src="./assets/img/w2.png" alt="">
                     <div class="portfolios__text">THE WEDDING OF</div>
                     <div class="portfolios__text name second">Dianne & Michael</div>
                 </a href="#">
                 <a href="#" class="portfolios__item">
                     <div class="after"></div>
-                    <img src="./assets/img/w3.png" alt="">
+                    <img class="portfolios__img" src="./assets/img/w3.png" alt="">
                     <div class="portfolios__text">THE WEDDING OF</div>
                     <div class="portfolios__text name second">Gabrielle & Simon</div>
                 </a href="#">
                 <a href="#" class="portfolios__item">
                     <div class="after"></div>
-                    <img src="./assets/img/w4.png" alt="">
+                    <img class="portfolios__img" src="./assets/img/w4.png" alt="">
                     <div class="portfolios__text">THE WEDDING OF</div>
                     <div class="portfolios__text name">Zee & Adrian</div>
                 </a href="#">
@@ -254,9 +277,9 @@
                     </div>
                     <button class="contact__btn" type="submit">Send</button>
                 </form>
-                <div class="contact__item">
+                <div class="contact__loc">
                     <a href="#">
-                        <img src="./assets/img/map_placeholder.png" alt="">
+                        <img class="contact__img" src="./assets/img/map_placeholder.png" alt="">
                     </a>
                     <div class="form__title">Head office</div>
                     <div class="contact__text">Via Roma, 123 20121 Milano (MI) Italy</div>
@@ -283,10 +306,18 @@
             <div class="footer__inner">
                 <img src="./assets/logo/logofooter.svg" alt="">
                 <div class="footer__links">
-                    <a class="footer__link" href="#">About us</a>
-                    <a class="footer__link" href="#">Terms of Service</a>
-                    <a class="footer__link" href="#">Privacy Policy</a>
-                    <a class="footer__link" href="#">FAQ</a>
+                    <div class="footer__link">
+                        <a href="#">About us</a>
+                    </div>
+                    <div class="footer__link">
+                        <a href="#">Terms of Service</a>
+                    </div>
+                    <div class="footer__link">
+                        <a href="#">Privacy Policy</a>
+                    </div>
+                    <div class="footer__link">
+                        <a href="#">FAQ</a>
+                    </div>
                 </div>
                 <div class="icons iconsfooter">
                     <a href="#">
