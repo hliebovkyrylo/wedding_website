@@ -42,6 +42,17 @@ slides.forEach((slide, index) => {
 });
 
 // swiper
-const Swiper = new Swiper('.swiper', {
-    direction: 'vertical',
+const swiper = new Swiper('.swiper', {
+    navigation: {
+        nextEl: '.swiperRight',
+        prevEl: '.swiperLeft',
+    },
 })
+
+// nav toggle
+const button = document.querySelector('.button');
+const items = document.querySelector('.toggleItems')
+
+button.addEventListener('click', function () {
+    items.classList.toggle('active')
+});
