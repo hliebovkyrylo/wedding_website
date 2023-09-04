@@ -256,6 +256,7 @@ b {
     width: 361px;
     height: 467px;
     border-radius: 8px 0 0 8px;
+    object-fit: cover;
 }
 
 .venues__num {
@@ -463,6 +464,9 @@ b {
 .arrow {
     position: absolute;
     top: 50%;
+    background: none;
+    border: 0;
+    cursor: pointer;
 }
 
 .arrowleft {
